@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    line-height: 20px;
+    font-size: 13px;
+    color: #222;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{  
+    text-decoration: none;
+}
+img{
+    vertical-align: top;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+.hide{
+    display: block;
+    position: absolute;
+    top: -99999px;
+    left: -99999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+input{
+    font-family: 'Noto Sans KR', sans-serif;
+    vertical-align: top;
+}
+
+fieldset{
+    border: 0;
+}
+legend{
+    display: none;
+}
+
+/*기본 초기화*/
+
+
+
+#header{
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+.headerIn{
+    width: 100%;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.headerIn h1{
+    width: 130px;
+}
+.h_menu ul{
+    display: flex;
+}
+.h_menu li{
+    margin-left: 10px;
+}
+.h_menu li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    color: #222;
+}
+.h_menu .member a{
+    width: 150px;
+}
+.h_menu li a img{
+    width: 100%;
+    height: 100%;
+}
+
+
