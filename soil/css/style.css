@@ -64,6 +64,7 @@ legend{
 #header{
     position: absolute;
     width: 100%;
+    z-index: 500;
 }
 
 .header_in{
